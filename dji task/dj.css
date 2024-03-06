@@ -1,0 +1,163 @@
+.dij{
+    display:inline-flex;
+    color: rgb(249, 249, 249);
+    /* background-color: black; */
+    justify-content: space-evenly;
+    position:relative;
+    gap: 25px;
+    bottom: 630px;
+    left: 66px;
+    font-weight:400;
+    text-decoration: none;
+    
+    
+}
+.dij  a{
+    color: white;
+    text-decoration: none;
+}
+.dij a:hover{
+    color: yellow;
+    
+}
+#btn{
+    color: white;
+    background-color: rgb(0, 159, 212);
+    border-radius: 20px;
+    position: relative;
+    bottom: 660px;
+    left: 494px;
+    gap: 10px;
+    /* padding: 5px; */
+
+}
+
+
+.search{
+    position: relative;
+    left: 380px;
+    bottom: 220px;
+}
+.btn-primary{
+    /* color: white;
+    background-color: rgb(1, 192, 255);
+    text-align: center;
+    padding: 2px;
+    border-radius: 10px; */
+    position: relative;
+    left: 380px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+/* img{
+    position: relative;
+    bottom: 7px;
+    right: 10px;
+} */
+.box1{
+    grid-area: one;
+    background-image: url(assert/box1.webp);
+    background-size: cover;
+}
+.box2{
+    grid-area: two;
+    background-image: url(assert/box2.webp);
+    background-size: cover;
+}
+.box3{
+    grid-area: three;
+    background-image: url(assert/box3.webp);
+    background-size: cover;
+}
+.box4{
+    grid-area: four;
+    background-image: url(assert/box4.webp);
+    background-size: cover;
+}
+
+.box-model{
+    color:black;
+    font-weight:bold;
+    font-size: xx-large;
+    text-align: center;
+    display: grid;
+    /* color: white; */
+    grid-template-areas: 
+    'one two'
+    'three four';
+    /* justify-content: space-between; */
+    padding: 10px;
+    gap: 10px;
+    /* padding: 10px; */
+    /* border: 1px solid black; */
+}
+.dji,p{
+    color: rgba(9, 9, 9, 0.411);
+    text-align: center;
+    font-size:medium;
+    /* text-decoration: underline; */
+    /* font-family: 'Timmes, serif; */
+    /* font-weight: 100; */
+}
+.search{
+    display: flex;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    left: 1000px;
+    cursor: help;
+}
+
+.box-model >div{
+    margin: 0px;
+    /* display: flex; */
+    /* justify-content:s; */
+    width: 622px;
+    height: 200px;
+    /* gap: 20px; */
+    /* border-radius: 10px; */
+    height: 347px;
+    color: rgb(1, 2, 3);
+    border: 1px solid white;
+
+
+
+}
+.boxx1{
+    grid-area: one;
+    background-size: cover;
+    background-image: url(./box2/hover1.webp);
+}
+.boxx2{
+    grid-area:two;
+    background-size: cover;
+    background-image: url(./box2/hover2.webp);
+}
+.boxx3{
+    grid-area: three;
+    background-size: cover;
+    background-image: url(./box2/hover3.webp);
+}
+.boxxx2{
+    margin: 20px;
+    display: grid;
+    width: 1230px;
+    height: 500px;
+    grid-template-areas: 'one two three';
+    /* padding: 10px; */
+    gap: 17px;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 700;
+    font-style: italic;
+    /* position:relative; */
+    /* top: 100px; */
+
+}
+.boxxx2:hover{
+    width: 1260px;
+    height: 550px;
+    transition: 3s;
+}
